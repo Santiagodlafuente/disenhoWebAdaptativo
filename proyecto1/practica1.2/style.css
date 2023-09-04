@@ -1,0 +1,77 @@
+body{
+    background: url(https://i.blogs.es/1a5171/granos-de-cafe/450_1000.jpeg) no-repeat fixed;
+    background-size: cover;
+    font-family: sans-serif;
+    padding: 20px;
+}
+
+.menu{
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+
+/*cabecera*/
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin: 0 auto;
+}
+
+.subtitle{
+    text-align: center;
+    font-size: 1rem;
+}
+
+hr{ 
+    height: 2px;
+    border: brown solid 0.1px;
+    background-color: brown;
+}
+
+/*productos*/
+h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.8rem;
+}
+img{
+    width: 10vw;
+    height: 10vh;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 1px;
+    font-size: 1.2rem;
+}
+.nombprod{
+    text-transform: capitalize;
+}
+
+/*footer*/
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-link, a{
+    margin: 15px auto 0 auto;
+    color: black;
+}
+a:link{
+    text-decoration: none;
+}
+    
+a:hover{
+    color: brown;
+}

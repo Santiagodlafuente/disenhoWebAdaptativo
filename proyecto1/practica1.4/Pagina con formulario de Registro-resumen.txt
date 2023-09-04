@@ -1,0 +1,23 @@
+temas vistos:
+1. Seleccion de dos o mas etiquetas o clases:
+Se pone el nombre y se le agrega una coma.
+ej: h3, p{ color: red;}
+
+2. :fielst-of-type
+Sirve para seleccionar la ultima etiqueta con ese nombre y aplicarle las propiedades a nuestro gusto.
+mas info en este link:
+
+https://developer.mozilla.org/es/docs/Web/CSS/:first-of-type
+
+3. vertical-aling
+Sirve para alinear sus items a la misma altura de su label. mas info en este link:
+
+https://developer.mozilla.org/es/docs/Web/CSS/vertical-align
+
+4. Selector de atributos
+Para dar estilo a un botón de envío, se puede utilizar un selector de atributos (attribute), que selecciona un elemento basado en el valor del atributo dado.
+ej: input[name="password"]
+Esto selecciona los elementos input con un atributo name con el valor password.
+mas info en este link:
+
+
