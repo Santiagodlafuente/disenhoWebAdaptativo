@@ -1,11 +1,12 @@
 body{
     margin: 0;
+    padding: 0;
     background-color: rgb(250, 250, 255);
     font-family: sans-serif;
 }
 h1{
     font-size: 2rem;
-    color: blueviolet;
+    color: black;
     text-align: center;
     text-transform: capitalize;
 }
